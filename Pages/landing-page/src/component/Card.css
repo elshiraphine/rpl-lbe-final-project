@@ -1,0 +1,29 @@
+.container{
+    margin: 40px;
+    display: flex;
+    height: 50%;
+    width: 15%;
+    border: 1px solid #C4C4C4;
+    border-radius: 7%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image-container {
+    height: 30%;
+}
+
+img {
+    height: 100%;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+p{
+    font-size: 50px;
+}
