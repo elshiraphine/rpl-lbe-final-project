@@ -6,7 +6,9 @@ const Navbar = () => {
     return (
         <div class="navpanel">
             <header class="navbar">
-                <img src={logo} alt="Logo" />
+                <div className="height-prop">
+                    <img src={logo} alt="Logo" />
+                </div>
                 <nav>
                     <ul class="navlinks">
                         <li><a href="#">Alert</a></li>

@@ -1,15 +1,30 @@
 .container{
-    margin: 40px;
+    margin: 60px;
     display: flex;
     height: 50%;
     width: 15%;
-    border: 1px solid #C4C4C4;
     border-radius: 7%;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     padding: 100px;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+    background-color: white;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.shadow-prop{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    border-radius: 7%;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+    top: 0;
+    left: 0;
 }
 
 .image-container {

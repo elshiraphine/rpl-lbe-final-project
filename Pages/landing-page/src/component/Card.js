@@ -13,6 +13,7 @@ const Card = (props) => {
                 <img src={props.img} alt={props.alt} />
             </div>
             <p>{props.text}</p>
+            <div className="shadow-prop"></div>
         </div>
     )
 }
