@@ -1,4 +1,4 @@
-.container{
+.card{
     margin: 60px;
     display: flex;
     height: 50%;
@@ -7,12 +7,12 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
     position: relative;
     background-color: white;
 }
 
-.container:hover{
+.card:hover{
     transform: scale(1.1);
 }
 
@@ -35,10 +35,10 @@ img {
     height: 80px;
 }
 
-h1 {
+.card-title {
     font-size: 30px;
 }
 
-p{
-    font-size: 15px;
+.card-info{
+    font-size: 20px;
 }

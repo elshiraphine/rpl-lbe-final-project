@@ -1,0 +1,50 @@
+.Container {
+    position: relative;
+    height: 90%;
+}
+
+.Article{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background-color: #ff7f2a;
+    bottom: 0;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+}
+
+.img{
+    height:500px;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+}
+
+.info{
+    text-align: justify;
+    color: white;
+    font-size: 30px;
+}

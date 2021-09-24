@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <div class="navpanel">
-            <header class="navbar">
+        <div className="navpanel">
+            <header className="navbar">
                 <div className="height-prop">
                     <img className="logo" src={logo} alt="Logo" />
                 </div>
                 <nav>
-                    <ul class="navlinks">
+                    <ul className="navlinks">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/alert">Alert</Link></li>
-                        <li><Link to="/learn">learn</Link></li>
+                        <li><Link to="/learn">Learn</Link></li>
                     </ul>
                 </nav>
             </header>

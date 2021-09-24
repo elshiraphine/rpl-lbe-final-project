@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './component/Navbar'
+import Article from './component/Article'
 
 const Learn = () => {
     return (
-        <div>
+        <div className="App">
             <Navbar />
-            This will be the learn page.
+            <Article />
+            
         </div>
     )
 }

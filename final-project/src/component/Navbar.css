@@ -35,9 +35,9 @@ li, a{
 }
 
 .height-prop{
-    height: 70%;
+    height: 100%;
 }
 
-img{
+.logo{
     height: 100%;
 }
