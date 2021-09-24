@@ -1,18 +1,20 @@
 import React from 'react'
 import "./Navbar.css"
 import logo from "../assets/logo.svg"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <div class="navpanel">
             <header class="navbar">
                 <div className="height-prop">
-                    <img src={logo} alt="Logo" />
+                    <img className="logo" src={logo} alt="Logo" />
                 </div>
                 <nav>
                     <ul class="navlinks">
-                        <li><a href="#">Alert</a></li>
-                        <li><a href="#">Learn</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/alert">Alert</Link></li>
+                        <li><Link to="/learn">learn</Link></li>
                     </ul>
                 </nav>
             </header>

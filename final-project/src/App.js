@@ -1,13 +1,15 @@
 import './App.css';
-import Navbar from './component/Navbar';
-import Card from './component/Card';
-import Cardcontainer from './component/Cardcontainer';
+import {Route , Link} from "react-router-dom";
+import Home from './Home';
+import Alert from './Alert';
+import Learn from './Learn';
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Cardcontainer />
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/alert" component={Alert}/>
+      <Route exact path="/learn" component={Learn}/>
     </div>
   );
 }
