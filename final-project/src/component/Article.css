@@ -7,7 +7,7 @@
     position: absolute;
     height: 90%;
     width: 100%;
-    background-color: #ff7f2a;
+    background-image: linear-gradient(90deg, #ff6600, #ffccaa);
     bottom: 0;
 }
 
@@ -27,11 +27,10 @@
 }
 
 .imgbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 50%;
+    position: relative;
+    width: 890px;
+    height: 500px;
+    background-color: #faddad;
 }
 
 .img{
@@ -40,11 +39,57 @@
 
 .title{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .info{
     text-align: justify;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
+
+#mountain{
+    position: absolute;
+    height: 240px;
+    width: 400px;
+    top: 82px;
+    left: 220px;
+}
+
+#right{
+    position: absolute;
+    height: 230px;
+    width: 245px;
+    right: 240px;
+    bottom: 115px;
+}
+
+#left{
+    position: absolute;
+    height: 180px;
+    width: 340px;
+    left: 230px;
+    bottom: 95px;
+}
+
+#shock{
+    transform-origin: center center;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 310px;
+    bottom: 140px;
+}
+
+.imgbox:hover > #right{
+    transform: translateY(-10px);
+}
+
+.imgbox:hover > #left{
+    transform: translateY(10px);
+}
+
+.imgbox:hover > #shock{
+    transform: scale(4);
+}
+

@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Cardcontainer.css"
 import Card from './Card'
-import bookicon from "../assets/bookIcon.png"
-import bellicon from "../assets/bellIcon.png"
-import questionicon from "../assets/questionMark.png"
+import bookicon from "../assets/vector/bookIcon.svg"
+import bellicon from "../assets/vector/bellIcon.svg"
+import questionicon from "../assets/vector/questionMark.svg"
 
 const Cardcontainer = () => {
     const list = [

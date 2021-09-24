@@ -1,6 +1,10 @@
 import React from 'react'
 import "./Article.css"
 import earthquake from "../assets/earthquakes.jpg"
+import leftBreak from "../assets/vector/leftBreak.svg"
+import rightBreak from "../assets/vector/rightBreak.svg"
+import mountains from "../assets/vector/mountains.svg"
+import shock from "../assets/vector/shock.svg"
 
 const Article = () => {
     return (
@@ -23,7 +27,10 @@ const Article = () => {
                             called the epicenter.</p>
                     </div>
                     <div className="imgbox">
-                        <img className="img" src={earthquake} alt="earthquakes" />
+                        <img id="mountain" src={mountains} alt="mountain" />
+                        <img id="right" src={rightBreak} alt="right break" />
+                        <img id="left" src={leftBreak} alt="left break" />
+                        <img id="shock" src={shock} alt="shock" />
                     </div>
                 </div>
             </div>
