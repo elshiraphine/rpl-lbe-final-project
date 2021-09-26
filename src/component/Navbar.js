@@ -2,6 +2,7 @@ import React from 'react'
 import "./Navbar.css"
 import logo from "../assets/vector/QuakeLogo.svg"
 import { Link } from 'react-router-dom'
+import BmkgAPI from '../Alert'
 
 const Navbar = () => {
     return (

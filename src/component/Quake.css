@@ -1,0 +1,41 @@
+.info{
+    height:60%;
+    margin: 10px;
+    padding: 20px;
+    border: 10px solid red;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    border: 10px solid green;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 30px;
+    height: 700px;
+    margin: 40px;
+}
+
+button{
+    background-image: linear-gradient(to right, #ff6600, #ffccaa);
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.shakemap{
+    display: block;
+    height: 500px;
+}

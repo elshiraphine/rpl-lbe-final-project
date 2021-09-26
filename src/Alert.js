@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './component/Navbar'
+import Quake from './component/Quake'
 
 const Alert = () => {
+
     return (
         <div className="App">
             <Navbar />
-            This Will Be The Alert Page.
+            <Quake />
         </div>
     )
 }
