@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "./Quake.css"
 import React from 'react'
 import { useState } from "react"
