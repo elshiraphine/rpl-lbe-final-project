@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 60%;
     margin: 1rem;
     border: 0.8rem solid #FF5900;
 }
@@ -36,7 +36,7 @@ button{
 
 .shakemap{
     display: block;
-    height: 400px;
+    height: 30rem;
 }
 
 .list{
