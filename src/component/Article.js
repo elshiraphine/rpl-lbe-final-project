@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Article.css"
-import earthquake from "../assets/earthquakes.jpg"
 import leftBreak from "../assets/vector/leftBreak.svg"
 import rightBreak from "../assets/vector/rightBreak.svg"
 import mountains from "../assets/vector/mountains.svg"
