@@ -1,5 +1,5 @@
 import './App.css';
-import {Route , Link} from "react-router-dom";
+import {Route} from "react-router-dom";
 import Home from './Home';
 import Alert from './Alert';
 import Learn from './Learn';
