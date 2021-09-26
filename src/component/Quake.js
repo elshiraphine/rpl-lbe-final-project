@@ -20,14 +20,58 @@ const Quake = (pops) => {
         <div className="flexbox">
             <div className="info">
                 <h1>Latest Info Provided by BMKG Autogempa API</h1>
-                <p>Tanggal: {Info.Tanggal}</p>
-                <p>Jam: {Info.Jam}</p>
-                <p>Koordinat: {Info.Coordinates}</p>
-                <p>Magnitudo: {Info.Magnitude}</p>
-                <p>Kedalaman: {Info.Kedalaman}</p>
-                <p>Wilayah: {Info.Wilayah}</p>
-                <p>Potensi: {Info.Potensi}</p>
-                <p>Dirasakan: {Info.Dirasakan}</p>
+                <div className="list">
+                    <table>
+                        <tr>
+                            <td>Tanggal</td>
+                            <td>:</td>
+                            <td>{Info.Tanggal}</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Jam</td>
+                            <td>:</td>
+                            <td>{Info.Jam}</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Koordinat</td>
+                            <td>:</td>
+                            <td>{Info.Coordinates}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Magnitudo</td>
+                            <td>:</td>
+                            <td>{Info.Magnitude}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Kedalaman</td>
+                            <td>:</td>
+                            <td>{Info.Kedalaman}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Wilayah</td>
+                            <td>:</td>
+                            <td>{Info.Wilayah}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Potensi</td>
+                            <td>:</td>
+                            <td>{Info.Potensi}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Dirasakan</td>
+                            <td>:</td>
+                            <td>{Info.Dirasakan}</td>
+                        </tr>
+                    
+                    </table>
+                </div>
                 <div>
                     <button onClick={BmkgAPI}>Refresh Data</button>
                 </div>
